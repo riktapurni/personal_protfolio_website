@@ -10,6 +10,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 .top_banner {
   background-image: url(images/top-banner.png);
@@ -22,11 +23,16 @@ section {
 .half-width img {
   width: 80%;
 }
-.hire_me_btn {
+.link_btn {
   text-decoration: none;
-  background-image: linear-gradient(180deg, #ff655c, #ff8c71);
+  background-image: linear-gradient(170deg, #ff655c, #ff8c71);
   color: #fff;
   padding: 10px 40px;
   border-radius: 5px;
   font-weight: 700;
+}
+.dream_big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
